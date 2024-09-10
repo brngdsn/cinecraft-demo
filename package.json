@@ -1,0 +1,12 @@
+{
+  "name": "cinecraft-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy:local": "pm2 start index.js --name \"cinecraft-api\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
